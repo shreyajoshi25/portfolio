@@ -1,0 +1,22 @@
+.footer{
+    hr{
+        margin: 10px 20px;
+        border: none;
+        height: 0.5px;
+        background-color: #b8b8b8;
+    } 
+    .info{
+        margin: 30px 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        span{
+            color: #b8b8b8;
+        }
+
+        .socials{
+            align-items: center;
+        }
+    }
+}
