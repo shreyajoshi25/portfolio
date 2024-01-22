@@ -6,7 +6,7 @@
         background-color: #b8b8b8;
     } 
     .info{
-        margin: 30px 100px;
+        margin: 10px 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
