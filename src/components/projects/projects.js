@@ -2,13 +2,14 @@ import React from 'react'
 import "./projects.css"
 import cleanConnect from "../../assets/cleanConnect.png";
 import trashCollect from "../../assets/trashCollect.png";
+import social from "../../assets/social.png";
 
 const Projects = () => {
   return (
     <div className='projects'>
       <div className="container">
       <div className="cards">
-          <img src="" alt="" />
+          <img src={social} alt="" className='img'/>
           <div className="info">
             <div className="date">January 2024</div>
             <div className="header">Wisdom Wellness Hub</div>
@@ -18,7 +19,7 @@ const Projects = () => {
 
 
         <div className="cards">
-          <img src={cleanConnect} alt="" />
+          <img src={cleanConnect} alt="" className='img'/>
           <div className="info">
             <div className="date"> March 2023</div>
             <div className="header">Clean Connect</div>
@@ -28,7 +29,7 @@ const Projects = () => {
 
         
         <div className="cards">
-          <img src={trashCollect} alt="" />
+          <img src={trashCollect} alt="" className='img'/>
           <div className="info">
             <div className="date">January 2023</div>
             <div className="header">Trash collector Game</div>
