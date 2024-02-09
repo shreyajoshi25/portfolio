@@ -1,5 +1,7 @@
 import React from 'react'
 import "./projects.css"
+import cleanConnect from "../../assets/cleanConnect.png";
+import trashCollect from "../../assets/trashCollect.png";
 
 const Projects = () => {
   return (
@@ -16,7 +18,7 @@ const Projects = () => {
 
 
         <div className="cards">
-          <img src="" alt="" />
+          <img src={cleanConnect} alt="" />
           <div className="info">
             <div className="date"> March 2023</div>
             <div className="header">Clean Connect</div>
@@ -26,7 +28,7 @@ const Projects = () => {
 
         
         <div className="cards">
-          <img src="" alt="" />
+          <img src={trashCollect} alt="" />
           <div className="info">
             <div className="date">January 2023</div>
             <div className="header">Trash collector Game</div>
