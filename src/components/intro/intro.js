@@ -1,6 +1,6 @@
 import React from 'react'
 
-const intro = () => {
+const Intro = () => {
   return (
     <div>
         <h1>Hi, I'm Shreya Joshi</h1>
@@ -8,4 +8,4 @@ const intro = () => {
   )
 }
 
-export default intro
+export default Intro
