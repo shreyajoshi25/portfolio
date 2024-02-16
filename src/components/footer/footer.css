@@ -17,6 +17,15 @@
 
         .socials{
             align-items: center;
+            
+
+            .social{
+                color: #b8b8b8;
+                width: 20px;
+                height: 20px;
+                margin: 2px;
+                cursor: pointer;
+            }
         }
     }
 }
