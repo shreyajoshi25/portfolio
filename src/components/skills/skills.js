@@ -15,6 +15,15 @@ const Skills = () => {
         <div className="point">
           <span>DBMS</span>
         </div>
+        <div className="point">
+          <span>OOPs</span>
+        </div>
+        <div className="point">
+          <span>Python</span>
+        </div>
+        <div className="point">
+          <span>ReactJS</span>
+        </div>
       </div>
     </div>
   )
