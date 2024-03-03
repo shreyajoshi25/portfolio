@@ -9,19 +9,34 @@
     .points{
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
+
+        .webd{
+            background-color: rgb(134, 134, 232);
+            border-radius: 10px;
+            height: 45px;
+            width: 180px;
+            align-items: center;
+
+            span{
+                margin: 0px;
+                padding: 30px;
+                line-height: 40px;
+            } 
+        }
 
         .point{
             background-color: rgb(134, 134, 232);
             border-radius: 10px;
-            height: 40px;
+            height: 45px;
             width: 120px;
+
             
             span{
                 margin: 0px;
                 padding: 30px;
-                padding-top: 20px;
-            }
+                line-height: 40px;
+            } 
         }
     }
 }

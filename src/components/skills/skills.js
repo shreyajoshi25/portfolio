@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="skills">
       <h1>Skills</h1>
       <div className="points">
-        <div className="point">
+        <div className="webd">
           <span>Web Development</span>
         </div>
         <div className="point">
