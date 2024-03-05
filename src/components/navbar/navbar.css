@@ -6,7 +6,11 @@
     .left{
         display: flex;
         flex-direction: row;
-        gap: 15px;
+        gap: 20px;
+
+        span{
+            margin: 23px 0px;
+        }
 
     }
 }
