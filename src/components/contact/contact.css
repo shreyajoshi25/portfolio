@@ -3,4 +3,17 @@
         margin: 30px 590px;
         color: rgb(74, 74, 157);
     }
+
+    .sides{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .right{
+            .form{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
 }
