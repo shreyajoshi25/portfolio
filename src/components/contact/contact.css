@@ -27,6 +27,7 @@
                     font-size: 18px;
                     font-weight: 600;
                     margin: 10px 0px;
+                    color: rgb(74, 74, 157);
                 }
 
                 .input{
@@ -39,7 +40,13 @@
                 }
 
                 button{
-                    margin: 30px;
+                    margin: 20px 0px;
+                    height: 40px;
+                    width: 400px;
+                    background-color: rgb(134, 134, 232);
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
                 }
             }
         }

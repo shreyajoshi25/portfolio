@@ -13,12 +13,12 @@ const Contact = () => {
           <div className="right">
             <form action="" className='form'>
               <span>Name</span>
-              <input type="text" placeholder='Your Name' className='input'/>
+              <input type="text" className='input'/>
               <span>Email Address</span>
-              <input type="text" placeholder='Your Email Address' className='input'/>
+              <input type="text" className='input'/>
               <span>Message</span>
-              <input type="text" placeholder='Type in your message' className='input message'/>
-              <button>Login</button>
+              <input type="text" className='input message'/>
+              <button>Send</button>
             </form>
           </div>
         </div>
