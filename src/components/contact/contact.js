@@ -1,14 +1,17 @@
 import React from 'react'
 import "./contact.css"
+import hello from "../../assets/hello.png"
 
 const Contact = () => {
   return (
     <div className='contact'>
-        <h1>Connect with me</h1>
+        <h1>Contact Me</h1>
 
         <div className="sides">
           <div className="left">
-            <span>Would love to connect with you</span>
+            <span>Let's have a conversation!</span>
+            <p>Would love to connect with you</p>
+            <img src={hello} alt="" />
           </div>
           <div className="right">
             <form action="" className='form'>
