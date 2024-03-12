@@ -8,7 +8,7 @@ const navbar = () => {
         <span>Shreya Joshi</span>
       </div>
       <div className="right">
-        <span>About</span>
+        <span>Home</span>
         <span>Projects</span>
         <span>Resume</span>
         <span>Contact</span>
