@@ -6,12 +6,13 @@
     flex-direction: row;
 
     .left{
+        display: flex;
+        flex-direction: row;
         margin: 16px 40px;
-        width: px;
-        span{
-            margin: 16px 0px;
-        }
+        width: 80px;
+        gap: 5px;
     }
+    
     .right{
         display: flex;
         flex-direction: row;
