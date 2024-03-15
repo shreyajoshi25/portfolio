@@ -7,7 +7,7 @@ import social from "../../assets/social.png";
 const Projects = () => {
   return (
     <div className='projects'>
-      <h2>My Recent Projects</h2>
+      <h1>My Recent Projects</h1>
       <div className="container">
       
       <div className="cards">
