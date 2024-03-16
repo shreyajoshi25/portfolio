@@ -4,7 +4,7 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>Skills</h1>
+      <h1>My Skills</h1>
       <div className="points">
         <div className="webd">
           <span>Web Development</span>
