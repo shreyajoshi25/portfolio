@@ -9,7 +9,8 @@
     }
     .points{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        margin: 30px 455px;
         gap: 45px;
 
         .webd{
