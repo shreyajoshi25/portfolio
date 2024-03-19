@@ -5,7 +5,9 @@ const Exp = () => {
   return (
     <div className='exp'>
         <h1>Experiences and Memberships</h1>
-        <div className="left"></div>
+        <div className="left">
+          
+        </div>
         <div className="right"></div>
     </div>
   )
