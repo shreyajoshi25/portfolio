@@ -36,24 +36,24 @@ const Intro = () => {
 
         <div className="exp">
           <div className="date">
-            <span>06/2023 - 07/2023</span>
-          </div>
-          <div className="detail">
-            <h4>Web Developer Intern</h4>
-            <h5>NoQS Digital Pvt. Ltd.</h5>
-            <span>worked as a web developer intern in NoQS Digital Pvt Ltd for 1.5 months.</span>
-          </div>
-        </div>
-
-
-        <div className="exp">
-          <div className="date">
             <span>01/2022 - Present</span>
           </div>
           <div className="detail">
             <h4>Event Management CORE</h4>
             <h5>Taarangana, IGDTUW</h5>
             <span>Currently, the core of the Event Management team of Taarangana for the session 2023-2024. I have previously worked as a Coordinator and Head Coordinator in the cultural fest of IGDTUW in 2022. Later I got promoted to the Associate position for the year 2023. </span>
+          </div>
+        </div>
+
+
+        <div className="exp">
+          <div className="date">
+            <span>06/2023 - 07/2023</span>
+          </div>
+          <div className="detail">
+            <h4>Web Developer Intern</h4>
+            <h5>NoQS Digital Pvt. Ltd.</h5>
+            <span>worked as a web developer intern in NoQS Digital Pvt Ltd for 1.5 months.</span>
           </div>
         </div>
 
