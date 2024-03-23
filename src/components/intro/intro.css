@@ -38,6 +38,10 @@
 
             .detail{
                 width: 650px;
+
+                h4{
+                    color: rgb(74, 74, 157);
+                }
             }
         }
     }

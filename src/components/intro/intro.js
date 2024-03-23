@@ -41,7 +41,7 @@ const Intro = () => {
           <div className="detail">
             <h4>Event Management CORE</h4>
             <h5>Taarangana, IGDTUW</h5>
-            <span>Currently, the core of the Event Management team of Taarangana for the session 2023-2024. I have previously worked as a Coordinator and Head Coordinator in the cultural fest of IGDTUW in 2022. Later I got promoted to the Associate position for the year 2023. </span>
+            <span>Currently serving as a core member of the Event Management team for Taarangana's 2023-2024 session. Previously held roles as Coordinator and Head Coordinator for IGDTUW's cultural fest in 2022, followed by promotion to the Associate position in 2023.</span>
           </div>
         </div>
 
