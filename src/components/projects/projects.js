@@ -14,7 +14,7 @@ const Projects = () => {
           <img src={social} alt="" className='img'/>
           <div className="info">
             <div className="date">January 2024</div>
-            <div className="header">Wisdom Wellness Hub</div>
+            <div className="header">VitalLink</div>
             <div className="details">A ReactJS-based web application designed to serve as a social media platform tailored for elders, fostering connections with friends living in proximity. The platform not only facilitates social interactions but also promotes the cultivation of new friendships, all within the context of maintaining and enhancing physical fitness.</div>
           </div>
         </div>
