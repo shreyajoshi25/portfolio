@@ -6,23 +6,29 @@ const Skills = () => {
     <div className="skills">
       
       <div className="points">
-        <div className="webd left" >
+        <div className="webd top" >
           <span>Web Development</span>
         </div>
-        <div className="point right">
-          <span>Java</span>
-        </div>
-        <div className="point left">
-          <span>DBMS</span>
+        <div className="sides">
+        <div className="left">
+          <div className="point">
+            <span>Java</span>
+          </div>
+          <div className="point">
+            <span>DBMS</span>
+          </div>
         </div>
         <h1>My Skills</h1>
-        <div className="point right">
-          <span>OOPs</span>
+        <div className="right">
+          <div className="point">
+            <span>OOPs</span>
+          </div>
+          <div className="point">
+            <span>Python</span>
+          </div>
         </div>
-        <div className="point left">
-          <span>Python</span>
         </div>
-        <div className="point right">
+        <div className="bottom point">
           <span>ReactJS</span>
         </div>
       </div>
