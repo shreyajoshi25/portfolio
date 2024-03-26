@@ -10,23 +10,23 @@ const Skills = () => {
           <span>Web Development</span>
         </div>
         <div className="sides">
-        <div className="left">
-          <div className="point">
-            <span>Java</span>
+          <div className="left">
+            <div className="point">
+              <span>Java</span>
+            </div>
+            <div className="point">
+              <span>DBMS</span>
+            </div>
           </div>
-          <div className="point">
-            <span>DBMS</span>
+          <h1>My Skills</h1>
+          <div className="right">
+            <div className="point">
+              <span>OOPs</span>
+            </div>
+            <div className="point">
+              <span>Python</span>
+            </div>
           </div>
-        </div>
-        <h1>My Skills</h1>
-        <div className="right">
-          <div className="point">
-            <span>OOPs</span>
-          </div>
-          <div className="point">
-            <span>Python</span>
-          </div>
-        </div>
         </div>
         <div className="bottom point">
           <span>ReactJS</span>
