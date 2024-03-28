@@ -23,7 +23,7 @@
         gap: 30px;
 
         .webd{
-            background-color: rgb(134, 134, 232);
+            background-color: rgb(194, 194, 249);
             border-radius: 10px;
             height: 45px;
             width: 180px;
@@ -37,7 +37,7 @@
         }
 
         .point{
-            background-color: rgb(134, 134, 232);
+            background-color: rgb(194, 194, 249);
             border-radius: 10px;
             height: 45px;
             width: 120px;
@@ -78,6 +78,14 @@
                 gap: 70px;
             }
             
+        }
+
+        .point:hover{
+            transform: scale(1.5);
+        }
+
+        .webd:hover{
+            transform: scale(1.5);
         }
     }
 }

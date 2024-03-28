@@ -1,12 +1,13 @@
 .intro{
     width: 100%;
-    height: 850px;
+    height: 950px;
     margin: 80px;
     display: flex;
     flex-direction: row;
     gap: 150px;
 
     .left{
+        width: 450px;
         h1{
             text-align: left;  
             font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";  
@@ -41,6 +42,7 @@
 
                 h4{
                     color: rgb(74, 74, 157);
+                    font-size: 22px;
                 }
             }
         }
