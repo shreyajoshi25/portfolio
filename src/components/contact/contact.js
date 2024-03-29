@@ -5,7 +5,7 @@ import hello from "../../assets/hello.png"
 const Contact = () => {
   return (
     <div className='contact'>
-        <h1>CONTACT ME</h1>
+        <h1>Connect with me</h1>
 
         <div className="sides">
           <div className="left">
