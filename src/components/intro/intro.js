@@ -1,5 +1,6 @@
 import React from 'react'
 import "./intro.css";
+import Projects from "../projects/projects";
 
 const Intro = () => {
   return (
