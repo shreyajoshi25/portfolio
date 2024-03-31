@@ -15,6 +15,7 @@
         flex-direction: row;
         align-items: center;
         gap: 40px;
+        
 
         
 
@@ -24,12 +25,13 @@
             -webkit-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.38);
             -moz-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.276);
             box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.274);
-            width: 400px;
+            width: 330px;
             height: 500px;
             display: flex;
             flex-direction: column;
             cursor: pointer;
             transition: transform 0.5s;
+            
 
             .img{
                 height: 180px;
@@ -40,6 +42,8 @@
 
             .info{
                 padding: 25px;
+                width: 280px;
+                
 
                 .date{
                     font-size: 18px;
@@ -52,9 +56,11 @@
                     font-family: 'PT serif';
                     font-weight: bold;
                     margin: 10px 0px;
+                    color: black;
                 }
-                .details{
 
+                .details{
+                    color: black;
                 }
             }
 
