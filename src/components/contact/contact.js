@@ -1,6 +1,7 @@
 import React from 'react'
 import "./contact.css"
 import hello from "../../assets/hello.png"
+import intro_photo from "../../assets/intro_photo.png";
 
 const Contact = () => {
   return (
@@ -11,7 +12,7 @@ const Contact = () => {
           <div className="left">
             <span>Let's have a conversation!</span>
             <p>Would love to connect with you</p>
-            <img src={hello} alt="" />
+            <img src={intro_photo} alt="" />
           </div>
           <div className="right">
             <form action="" className='form'>
