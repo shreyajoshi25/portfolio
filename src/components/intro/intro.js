@@ -1,7 +1,7 @@
 import React from 'react'
 import "./intro.css";
 import Projects from "../projects/projects";
-import intro_img6 from "../../assets/intro_img6.png"
+import intro from "../../assets/intro 2.png"
 
 
 const Intro = () => {
@@ -10,7 +10,7 @@ const Intro = () => {
       <div className="left">
         <h1>Hi, I'm Shreya Joshi</h1>
         <h2>A Software Developer. </h2>
-        <img src={intro_img6} alt="" />
+        <img src={intro} alt="" />
       </div>
 
 

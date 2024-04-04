@@ -1,6 +1,5 @@
 import React from 'react'
 import "./contact.css"
-import hello from "../../assets/hello.png"
 import intro_photo from "../../assets/intro_photo.png";
 
 const Contact = () => {
