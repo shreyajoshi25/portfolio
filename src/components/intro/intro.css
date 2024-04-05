@@ -19,9 +19,15 @@
             margin: 0px 0px;
             font-family: cursive;
         }
-        
-        img{
-            height: 200px;
+
+        .edit{
+            display: flex;
+            flex-direction: row;
+            gap: px;
+
+            img{
+                height: 100px;
+            }
         }
     }
 

@@ -1,16 +1,19 @@
 import React from 'react'
 import "./intro.css";
 import Projects from "../projects/projects";
-import intro from "../../assets/intro 2.png"
-
+import intro_left from "../../assets/intro_left.png"
+import intro_right from "../../assets/intro_right.png"
 
 const Intro = () => {
   return (
     <div className='intro'>
       <div className="left">
         <h1>Hi, I'm Shreya Joshi</h1>
-        <h2>A Software Developer. </h2>
-        <img src={intro} alt="" />
+        <div className="edit">
+          <img src={intro_left} alt="" />
+          <h2>A Software Developer. </h2>
+          <img src={intro_right} alt="" />
+        </div>
       </div>
 
 
