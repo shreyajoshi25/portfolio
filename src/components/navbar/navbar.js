@@ -17,9 +17,6 @@ const navbar = () => {
         <Link to='projects' style={{textDecoration: 'none', color:'black'}}>
         <span>Projects</span>
         </Link>
-        <Link to='https://drive.google.com/file/d/1LK7ZYRERD_Q0lAf42XVkjVXYJ3FZo_an/view?usp=sharing' style={{textDecoration: 'none', color:'black'}}>
-        <span>Resume</span>
-        </Link>
         <Link to='contact' style={{textDecoration: 'none', color:'black'}}>
         <span>Contact</span>
         </Link>

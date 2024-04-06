@@ -1,9 +1,19 @@
 .contact{
-    margin: 50px 0px;
+    margin: 50px 70px 100px;
+    width: 100%;
+
     h1{
-        margin: 30px 590px;
+        margin: 30px 550px;
         font-size: 32px;
         color: rgb(74, 74, 157);
+    }
+
+    hr{
+        width: 300px;
+        height: 4px;
+        background-color: rgb(74, 74, 157);
+        border: none;
+        margin: 0px 50px;
     }
 
     .sides{
@@ -14,30 +24,34 @@
         /* 312px; */
         border: 0.5px solid #989fad;
         border-radius: 10px;
-        height: 570px;
-        width: 950px;
+        height: 450px;
+        width: 850px;
 
         .left{
-            width: 400px;
+            width: 350px;
             background-color: rgb(194, 194, 249);
             background-size: cover;
-            padding: 40px 0px 40px 50px;
+            padding: 120px 0px 40px 50px;
+
             span{
-                font-size: 30px;
+                font-size: 36px;
                 color: rgb(74, 74, 157);
-            }
-            p{
-                font-size: 20px;
+                font-weight: 400;
             }
 
-            img{
-                height: 350px;
-                margin: 85px 40px 0px 10px;
+            p{
+                font-size: 18px;
+                margin: 30px 20px 0px 0px;
             }
+
+            .email{
+                margin: 20px 20px 0px 0px;
+            }
+
         }
 
         .right{
-            width: 400px;
+            width: 350px;
             margin: 40px 50px 40px 0px;
 
             .form{
@@ -59,13 +73,13 @@
                 }
 
                 .message{
-                    height: 200px;
+                    height: 100px;
                 }
 
                 button{
                     margin: 20px 0px;
                     height: 40px;
-                    width: 400px;
+                    width: 350px;
                     background-color: rgb(134, 134, 232);
                     border: none;
                     border-radius: 5px;

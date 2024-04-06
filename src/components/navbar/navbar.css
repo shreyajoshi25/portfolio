@@ -17,16 +17,17 @@
         display: flex;
         flex-direction: row;
         gap: 40px;
-        margin: 15px 900px;
-
-        Link{
-            
-        }
+        margin: 15px 0px 0px 1000px;
         
-
         span{
             margin: 16px 0px;
         }
 
+        span:hover{
+            color: #504d4d;
+        }
+
     }
+
+    
 }

@@ -7,11 +7,14 @@ const Contact = () => {
     <div className='contact'>
         <h1>Connect with me</h1>
 
+        {/* <hr /> */}
+
         <div className="sides">
           <div className="left">
             <span>Let's have a conversation!</span>
-            <p>Would love to connect with you</p>
-            <img src={intro_photo} alt="" />
+            <p>Would love to connect with you.</p>
+            <p className='email'>Either fill out the given form or email at joshishreya2502@gmail.com</p>
+            {/* <img src={intro_photo} alt="" /> */}
           </div>
           <div className="right">
             <form action="" className='form'>
