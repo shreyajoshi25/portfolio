@@ -3,7 +3,14 @@ import "./resume.css"
 const Resume = () => {
   return (
     <div className='resume'>
-        <div className='right'>
+      <div className="left">
+        <h4 className='top'>QUALIFICATIONS</h4>
+        <h2>My Education</h2>
+      </div>
+
+      <div className='right'>
+        <h4 className='top'>WORK EXPERIENCE AND MEMBERSHIPS</h4>
+        <h2>My Experience</h2>
         <div className="exp">
           <div className="date">
             <span>02/2024 - Present</span>

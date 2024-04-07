@@ -8,17 +8,20 @@
 
     .left{
         width: 450px;
+        h3{
+            margin-bottom: 5px;
+            color: rgb(135, 135, 182);
+            font-size: 20px;
+        }
         h1{
             text-align: left;  
             font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";  
             color: rgb(74, 74, 157);
             font-size: 50px;
+            margin-top: 0px;
             margin-bottom: 0px;
         }
 
-        /* h2{
-            ma
-        } */
 
         span{
             margin: 0px 0px;

@@ -8,7 +8,8 @@ const Intro = () => {
   return (
     <div className='intro'>
       <div className="left">
-        <h1>Hi, I'm Shreya Joshi</h1>
+        <h3>Hello, </h3>
+        <h1>I'm Shreya Joshi</h1>
         <div className="edit">
           {/* <img src={intro_left} alt="" /> */}
           <h2>Software & Web Developer. </h2>

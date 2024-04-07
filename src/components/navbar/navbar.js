@@ -17,6 +17,9 @@ const navbar = () => {
         <Link to='projects' style={{textDecoration: 'none', color:'black'}}>
         <span>Projects</span>
         </Link>
+        <Link to='resume' style={{textDecoration: 'none', color:'black'}}>
+        <span>Resume</span>
+        </Link>
         <Link to='contact' style={{textDecoration: 'none', color:'black'}}>
         <span>Contact</span>
         </Link>
