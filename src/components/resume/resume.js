@@ -6,6 +6,58 @@ const Resume = () => {
       <div className="left">
         <h4 className='top'>QUALIFICATIONS</h4>
         <h2>My Education</h2>
+
+        <div className="point">
+
+          <div className="bullet">
+            <div className="purple"></div>
+          </div>
+          <div className="exp">
+            <div className="detail">
+              <div className="head">
+                <h4>IGDTUW, Delhi</h4>
+                <span>(08/2021 - Present)</span>
+              </div>
+              <span>Started as a mentor for a CodeSolstice Mentorship Cohort at Protege, IGDTUW</span>
+              <button>B.Tech in ECE-AI</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="point">
+
+          <div className="bullet">
+            <div className="purple"></div>
+          </div>
+          <div className="exp">
+            <div className="detail">
+              <div className="head">
+                <h4>Sneh International School</h4>
+                <span>(03/2020 - 05/2021)</span>
+              </div>
+              <span>Started as a mentor for a CodeSolstice Mentorship Cohort at Protege, IGDTUW</span>
+              <button>Senior Secondary School of Education</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="point">
+
+          <div className="bullet">
+            <div className="purple"></div>
+          </div>
+          <div className="exp">
+            <div className="detail">
+              <div className="head">
+                <h4>IGDTUW, Delhi</h4>
+                <span>(03/2018 - 05/2019)</span>
+              </div>
+              <span>Started as a mentor for a CodeSolstice Mentorship Cohort at Protege, IGDTUW</span>
+              <button>Secondary School of Education</button>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div className='right'>
@@ -40,7 +92,10 @@ const Resume = () => {
                 <span>(05/2023 - Present)</span>
               </div>
               <span>Working as a member of the web development team and also as the Social Media Manager of MSC.</span>
-              <button>Social Media Manager and Web Development Team</button>
+              <div className="buttons">
+                <button>Social Media Manager</button>
+                <button>Web Development Team</button>
+              </div>
             </div>
           </div>
         </div>
@@ -91,7 +146,7 @@ const Resume = () => {
                 <span>(09/2022 - 12/2023)</span>
               </div>
               <span>PR head of the Western Dance Society of Indira Gandhi Delhi Technical University for Women.</span>
-              <button>PR HEAD</button>
+              <button>PR head</button>
             </div>
           </div>
         </div>
