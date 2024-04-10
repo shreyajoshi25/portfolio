@@ -9,9 +9,13 @@ const Resume = () => {
 
         <div className="point">
 
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
+
           <div className="exp">
             <div className="detail">
               <div className="head">
@@ -26,9 +30,13 @@ const Resume = () => {
 
         <div className="point">
 
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
+
           <div className="exp">
             <div className="detail">
               <div className="head">
@@ -43,9 +51,14 @@ const Resume = () => {
 
         <div className="point">
 
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            {/* <div className="line"></div> */}
           </div>
+            
+          
           <div className="exp">
             <div className="detail">
               <div className="head">
@@ -65,9 +78,14 @@ const Resume = () => {
         <h2>My Experience</h2>
         <div className="point">
 
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
+
+
           <div className="exp">
             <div className="detail">
               <div className="head">
@@ -81,8 +99,11 @@ const Resume = () => {
         </div>
 
         <div className="point">
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
 
           <div className="exp">
@@ -102,8 +123,11 @@ const Resume = () => {
 
 
         <div className="point">
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
 
           <div className="exp">
@@ -119,8 +143,11 @@ const Resume = () => {
         </div>
 
         <div className="point">
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            <div className="line"></div>
           </div>
 
           <div className="exp">
@@ -136,9 +163,13 @@ const Resume = () => {
         </div>
 
         <div className="point">
-          <div className="bullet">
-            <div className="purple"></div>
+          <div className="design">
+            <div className="bullet">
+              <div className="purple"></div>
+            </div>
+            {/* <div className="line"></div>  */}
           </div>
+
           <div className="exp">
             <div className="detail">
               <div className="head">

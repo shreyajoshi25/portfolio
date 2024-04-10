@@ -15,6 +15,8 @@ const Intro = () => {
           <h2>Software & Web Developer. </h2>
           {/* <img src={intro_right} alt="" /> */}
         </div>
+
+        <button>Download Resume</button>
       </div>
 
       <div className="right">
