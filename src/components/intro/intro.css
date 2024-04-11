@@ -23,10 +23,7 @@
         }
 
 
-        span{
-            margin: 0px 0px;
-            font-family: cursive;
-        }
+        
 
         .edit{
             display: flex;
@@ -38,45 +35,26 @@
             }
         }
 
+        span{
+            margin: 0px 0px;
+            color: #938e8e;
+        }
+
         button{
             border: 0.5px solid #938e8e;
             color: rgb(215, 215, 239);
             background-color: rgb(116, 116, 203);
             width: 180px;
             height: 40px;
-            margin: 20px 0px;
+            margin: 20px 0px;  
+        }
+
+        button:hover{
+            transform: scale(.95);
         }
     }
 
     .top{
         font-size: 30px;
     }
-
-    /* .right{
-        width: 700px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-
-        .exp{
-            display: flex;
-            flex-direction: row;
-            gap: 30px;
-
-            .date{
-                font-size: 14px;
-                width: 140px;
-                margin: 35px 0px;
-            }
-
-            .detail{
-                width: 650px;
-
-                h4{
-                    color: rgb(74, 74, 157);
-                    font-size: 22px;
-                }
-            }
-        }
-    } */
 }

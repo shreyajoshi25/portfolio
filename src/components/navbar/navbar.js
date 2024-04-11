@@ -10,7 +10,7 @@ const navbar = () => {
         <span>Shreya</span>
         <span>Joshi</span>
       </div>
-      <div className="right">
+      <div className="middle">
         <Link to='/' style={{textDecoration: 'none', color:'black'}}>
         <span>Home</span>
         </Link>
@@ -23,6 +23,10 @@ const navbar = () => {
         <Link to='contact' style={{textDecoration: 'none', color:'black'}}>
         <span>Contact</span>
         </Link>
+      </div>
+
+      <div className="right">
+        <a href="joshishreya2502@gmail.com">joshishreya2502@gmail.com</a>
       </div>
     </div>
   )

@@ -1,8 +1,8 @@
 .resume{
-    margin: 40px 250px;
+    margin: 40px 190px;
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 100px;
 
     .top{
         color: rgb(74, 74, 157);
@@ -89,7 +89,7 @@
     }
 
     .left{
-        width: 500px;
+        width: 550px;
     }
 
     .right{

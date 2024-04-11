@@ -13,8 +13,8 @@ const Intro = () => {
         <div className="edit">
           {/* <img src={intro_left} alt="" /> */}
           <h2>Software & Web Developer. </h2>
-          {/* <img src={intro_right} alt="" /> */}
         </div>
+        <span>Specializing in software and web development with a growing skill set and passionate about innovative solutions and problem-solving.</span>
 
         <button>Download Resume</button>
       </div>
