@@ -85,6 +85,10 @@
                     border-radius: 5px;
                     font-size: 18px;
                 }
+
+                button:hover{
+                    transform: scale(.95);
+                }
             }
         }
     }
