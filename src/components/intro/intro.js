@@ -1,8 +1,6 @@
 import React from 'react'
 import "./intro.css";
-import Projects from "../projects/projects";
-import intro_left from "../../assets/intro_left.png"
-import intro_right from "../../assets/intro_right.png"
+import ShreyaResume from "../../assets/ShreyaResume.pdf";
 
 const Intro = () => {
   return (
@@ -16,7 +14,7 @@ const Intro = () => {
         </div>
         <span>Specializing in software and web development with a growing skill set and passionate about innovative solutions and problem-solving.</span>
 
-        <button>Download Resume</button>
+        <button><a href={ShreyaResume} download="Resume">Download Resume</a></button>
       </div>
 
       <div className="right">

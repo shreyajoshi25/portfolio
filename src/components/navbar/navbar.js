@@ -1,14 +1,12 @@
 import React from 'react'
 import "./navbar.css"
 import {Link} from "react-router-dom";
-
+import logo from "../../assets/logo.png"
 const navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <img src="" alt="" />
-        <span>Shreya</span>
-        <span>Joshi</span>
+        <img src={logo} alt="" />
       </div>
       <div className="middle">
         <Link to='/' style={{textDecoration: 'none', color:'black'}}>
@@ -26,7 +24,7 @@ const navbar = () => {
       </div>
 
       <div className="right">
-        <a href="joshishreya2502@gmail.com">joshishreya2502@gmail.com</a>
+        <a href="mailto:joshishreya2502@gmail.com">joshishreya2502@gmail.com</a>
       </div>
     </div>
   )

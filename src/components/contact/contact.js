@@ -1,7 +1,6 @@
 import React from 'react'
 import "./contact.css"
 import { useForm, ValidationError } from '@formspree/react';
-import intro_photo from "../../assets/intro_photo.png";
 
 function Contact() {
   const [state, handleSubmit] = useForm("xnqeoljn");
@@ -19,8 +18,7 @@ function Contact() {
           <div className="left">
             <h3>Let's have a conversation!</h3>
             <p>Would love to connect with you.</p>
-            <p className='email'>Either fill out the given form or reach out at joshishreya2502@gmail.com</p>
-            {/* <img src={intro_photo} alt="" /> */}
+            <p className='email'>Either fill out the given form or reach out at <a href="mailto:joshishreya2502@gmail.com">joshishreya2502@gmail.com</a></p>
           </div>
           <div className="right">
             <form action="https://formspree.io/f/xnqeoljn" method="POST" className='form'>
