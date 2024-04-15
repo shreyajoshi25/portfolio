@@ -68,13 +68,15 @@
 
                 .input{
                     margin: 0px 0px 10px;
-                    height: 30px;
+                    height: 25px;
                     border: 0.1px solid #989fad;
                     border-radius: 3px;
+                    padding: 5px;
                 }
 
                 .message{
-                    height: 100px;
+                    padding: 5px;
+                    height: 75px;
                 }
 
                 button{
