@@ -1,5 +1,6 @@
 import React from 'react'
 import "./navbar.css"
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import {Link} from "react-router-dom";
 import logo from "../../assets/logo.png"
 const navbar = () => {
@@ -24,7 +25,8 @@ const navbar = () => {
       </div>
 
       <div className="right">
-        <a href="mailto:joshishreya2502@gmail.com">joshishreya2502@gmail.com</a>
+        <a href="mailto:joshishreya2502@gmail.com" ><EmailOutlinedIcon className='mail'></EmailOutlinedIcon></a>
+        <a href="mailto:joshishreya2502@gmail.com" className='text'>joshishreya2502@gmail.com</a>
       </div>
     </div>
   )
