@@ -24,10 +24,10 @@ const navbar = () => {
         </Link>
       </div>
 
-      <div className="right">
-        <a href="mailto:joshishreya2502@gmail.com" ><EmailOutlinedIcon className='mail'></EmailOutlinedIcon></a>
-        <a href="mailto:joshishreya2502@gmail.com" className='text'>joshishreya2502@gmail.com</a>
-      </div>
+      <a href="mailto:joshishreya2502@gmail.com" ><div className="right">
+       <EmailOutlinedIcon className='mail'></EmailOutlinedIcon>
+        <span>joshishreya2502@gmail.com</span>
+      </div> </a>
     </div>
   )
 }

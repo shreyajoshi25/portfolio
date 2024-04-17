@@ -29,26 +29,31 @@
 
     }
 
-    .right{
-        display: flex;
-        flex-direction: row;
-        margin: 15px 0px 0px 320px;
-        gap: 7px;
+    a{
+        text-decoration: none;
+        color: black;
 
-        .mail{
-            width: 18px;
-            height: 18px;
-            margin-top: 2px;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover{
-            color: #504d4d;
+        .right{
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0px 0px 320px;
+            gap: 7px;
+            
+    
+            .mail{
+                width: 18px;
+                height: 18px;
+                margin-top: 2px;
+            }
+    
+            
         }
     }
+
+    a:hover{
+        color: #504d4d;
+    }
+    
 
     
 }
