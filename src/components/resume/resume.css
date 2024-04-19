@@ -95,4 +95,34 @@
     .right{
         width: 550px;
     }
+
+
+    @media only screen and (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 20px 50px;
+
+        .left{
+            width: 300px;
+            .exp{
+                width: 250px;
+                margin: 3px 0px;
+            }
+
+            button{
+                height: 50px;
+            }
+        }  
+
+        .right{
+            width: 300px;
+
+            .exp{
+                width: 250px;
+                margin: 3px 0px;
+            }
+
+        } 
+    }
 }

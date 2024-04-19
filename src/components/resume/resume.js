@@ -115,7 +115,7 @@ const Resume = () => {
               <span>Working as a member of the web development team and also as the Social Media Manager of MSC.</span>
               <div className="buttons">
                 <button>Social Media Manager</button>
-                <button>Web Development Team</button>
+                <button>Web Developer</button>
               </div>
             </div>
           </div>
