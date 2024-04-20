@@ -65,4 +65,18 @@
     .top{
         font-size: 30px;
     }
+
+
+    @media only screen and (max-width: 480px) {
+        height: 800px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .left{
+            width: 320px;
+        }
+        
+    }
 }

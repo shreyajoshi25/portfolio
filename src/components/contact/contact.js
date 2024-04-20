@@ -54,7 +54,7 @@ const Contact = () => {
               <input type="text" value={email} className='input' onChange={(e) => setEmail(e.target.value)} required/>
               <span>Message</span>
               <textarea cols="30" rows="10" type="text" value={message} className='input message' onChange={(e) => setMessage(e.target.value)} required/>
-              <button type='submit' value='send'>Send</button>
+              <button type='submit' value='send' className='button'>Send</button>
             </form>
           </div>
         </div>

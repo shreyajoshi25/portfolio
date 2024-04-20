@@ -3,3 +3,9 @@ body {
     overflow-x: hidden;
     overflow-x: clip !important;
 }
+
+@media only screen and (max-width: 480px) {
+    body{
+        height: 1700px;
+    }
+}

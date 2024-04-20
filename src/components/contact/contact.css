@@ -98,4 +98,43 @@
             }
         }
     }
+
+    @media only screen and (max-width: 480px) {
+        height: 1000px;
+        margin: 0px;
+
+        .head{
+            margin: 30px 80px;
+        }
+        
+        .sides{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 850px;
+            margin: 30px;
+
+            .left{
+                width: 300px;
+            }
+
+            .right{
+                width: 300px;
+                padding-left:  25px;
+                margin-top: 0px; 
+
+            }
+
+            /* fix */
+            .button{
+                width: 300px;
+                margin: 0px;
+            }
+
+            
+        }
+
+        
+    }
+    
 }
