@@ -28,4 +28,18 @@
             }
         }
     }
+
+
+    @media only screen and (max-width: 480px) {
+        height: 80px;
+        hr{
+            width: 400px;
+            margin: 0px 20px;
+        }
+
+        .info{
+            margin: 10px 30px;
+        }
+        
+    }
 }
