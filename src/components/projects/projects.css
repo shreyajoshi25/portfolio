@@ -77,7 +77,6 @@
 
         .projects{
             width: 414px;
-            
             margin: 50px 0px 30px; 
         }
 
@@ -95,9 +94,39 @@
         
     }
         
-     /* @media only screen and (min-width: 480px) and (max-width: 1024px) {
-        .my-element {
-        display: block;
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+        height: 1900px;
+
+        .projects{
+            width: 414px;
+            margin: 50px 0px 30px; 
         }
-     } */
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            padding: 0px;
+            margin: 40px 120px;
+
+            .cards{
+                width: 500px;
+                height: 550px;
+
+                .img{
+                    width: 500px;
+                    height: 300px;
+                }
+
+                .info{
+                    width: 500px;
+                    padding: 50px 20px;
+                }
+
+            }
+        }
+
+       
+    }
 }
