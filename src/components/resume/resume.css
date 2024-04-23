@@ -126,4 +126,31 @@
 
         } 
     }
+    @media only screen and (min-width: 480px) and (max-width:1024px){
+        gap: 50px;
+        margin: 20px 80px;
+        height: 1200px;
+
+        .left{
+            width: 300px;
+            .exp{
+                width: 250px;
+                margin: 3px 0px;
+            }
+
+            button{
+                height: 50px;
+            }
+        }  
+
+        .right{
+            width: 300px;
+
+            .exp{
+                width: 250px;
+                margin: 3px 0px;
+            }
+
+        } 
+    }
 }
