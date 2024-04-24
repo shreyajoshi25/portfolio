@@ -3,6 +3,7 @@ import "./navbar.css"
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import {Link} from "react-router-dom";
 import logo from "../../assets/logo.png"
+
 const navbar = () => {
   return (
     <div className="navbar">
@@ -28,6 +29,18 @@ const navbar = () => {
        <EmailOutlinedIcon className='mail'></EmailOutlinedIcon>
         <span>joshishreya2502@gmail.com</span>
       </div> </a>
+
+      <div className="hide">
+        <li>
+          <ul>Home</ul>
+          <ul>Projects</ul>
+          <ul>Resume</ul>
+          <ul>Contact</ul>
+          <hr />
+          <ul><a href="mailto:joshishreya2502@gmail.com" ><div className="email"><EmailOutlinedIcon className='mail'></EmailOutlinedIcon><span>joshishreya2502@gmail.com</span></div></a></ul>
+        </li>
+
+      </div>
     </div>
   )
 }

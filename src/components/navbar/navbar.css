@@ -54,11 +54,23 @@
     a:hover{
         color: #504d4d;
     }
+
+    .hide{
+        display: none;
+    }
     
 
     @media only screen and (max-width: 480px) {
         .left{
             margin: 10px 30px;
+        }
+
+        .middle{
+            display: none;
+        }
+
+        a{
+            display: none;
         }
     }
 }
