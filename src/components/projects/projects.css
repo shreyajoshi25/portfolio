@@ -16,9 +16,6 @@
         align-items: center;
         gap: 40px;
         
-
-        
-
         .cards{
             background-color: white;
             border-radius: 15px;
@@ -74,6 +71,7 @@
 
     @media only screen and (max-width: 480px) {
         height: 1700px;
+        margin-top: 60px;
 
         .projects{
             width: 414px;

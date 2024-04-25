@@ -1,4 +1,6 @@
 .navbar{
+    overflow-x: hidden;
+    overflow-x: clip !important;
     height: 50px;
     width: 100%;
     background-color: rgb(134, 134, 232);
@@ -13,20 +15,50 @@
         height: 30px;
         gap: 5px;
     }
+
+    .menu{
+        display: flex;
+
+        .btn{
+            display: none;
+        }
+    }
     
-    .middle{
+    .show{
         display: flex;
         flex-direction: row;
         gap: 40px;
         margin: 15px 0px 0px 400px;
-        
-        span{
-            margin: 16px 0px;
-        }
+        list-style: none;
 
-        span:hover{
-            color: #504d4d;
+        Link{
+            li{
+                margin: 16px 0px;
+            }
+    
+            li:hover{
+                color: #504d4d;
+            }
         }
+    }
+
+    .hide{
+        display: none;
+        flex-direction: row;
+        gap: 40px;
+        margin: 15px 0px 0px 400px;
+        list-style: none;
+
+        Link{
+            li{
+                margin: 16px 0px;
+            }
+    
+            li:hover{
+                color: #504d4d;
+            }
+        }
+        
 
     }
 
@@ -54,23 +86,59 @@
     a:hover{
         color: #504d4d;
     }
-
-    .hide{
-        display: none;
-    }
     
 
     @media only screen and (max-width: 480px) {
-        .left{
-            margin: 10px 30px;
+        .navbar{
+            margin-bottom: 500px;
         }
+            .left{
+                margin: 10px 30px;
+                margin-right: 700px;
+            }
 
-        .middle{
-            display: none;
-        }
+            .menu {
+                position: absolute;
+                right: 0;
+                margin: 5px 30px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 11px;
+                z-index: 3;
 
-        a{
-            display: none;
-        }
+                .btn{
+                    display: block;
+                    cursor: pointer;
+                }
+            }
+
+            .show{
+                display: none;
+            }
+    
+            .hide{
+                display: none;
+                flex-direction: row;
+                align-items: center;
+                gap: 13px;
+                border-radius: 10px;
+                background: linear-gradient(
+                  0deg,
+                  rgba(164, 172, 185, 0.2) 0%,
+                  #a5a5f3 100%
+                );
+                margin: 0px;
+                padding: 15px 60px;
+                box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+            }
+
+            .menuOpen {
+                display: flex;
+                z-index: 1;
+            }
+
+            .mail{
+                display: none;
+            }
     }
 }
