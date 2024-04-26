@@ -26,16 +26,16 @@ const Navbar = () => {
       <div className="menu">
         <img className="btn" src={menuOpen ? (closeIcon) : (menuIcon)} alt="" onClick={handleMenuToggle}/>
         <ul className="show">
-          <Link to='/' style={{ textDecoration: 'none', color: 'black' }}>
+          <Link to='/' style={{ textDecoration: 'none', color: 'black' }} smooth>
             <li>Home</li>
           </Link>
-          <Link to='projects' style={{ textDecoration: 'none', color: 'black' }}>
+          <Link to='projects' style={{ textDecoration: 'none', color: 'black' }} smooth>
             <li>Projects</li>
           </Link>
-          <Link to='resume' style={{ textDecoration: 'none', color: 'black' }}>
+          <Link to='resume' style={{ textDecoration: 'none', color: 'black' }} smooth>
             <li>Resume</li>
           </Link>
-          <Link to='contact' style={{ textDecoration: 'none', color: 'black' }}>
+          <Link to='contact' style={{ textDecoration: 'none', color: 'black' }} smooth>
             <li>Contact</li>
           </Link>
         </ul>
