@@ -6,6 +6,9 @@
     background-color: rgb(134, 134, 232);
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
     .left{
         display: flex;
@@ -30,15 +33,14 @@
         gap: 40px;
         margin: 15px 0px 0px 400px;
         list-style: none;
+        
+        /* li{
+            margin: 0px 0px;
+        } */
 
-        Link{
-            li{
-                margin: 16px 0px;
-            }
-    
-            li:hover{
-                color: #504d4d;
-            }
+        li:hover{
+            color: #504d4d;
+            cursor: pointer;
         }
     }
 
@@ -49,14 +51,10 @@
         margin: 15px 0px 0px 400px;
         list-style: none;
 
-        Link{
-            li{
-                margin: 16px 0px;
-            }
-    
-            li:hover{
-                color: #504d4d;
-            }
+
+        li:hover{
+            color: #504d4d;
+            cursor: pointer;
         }
         
 
@@ -77,6 +75,7 @@
                 width: 18px;
                 height: 18px;
                 margin-top: 2px;
+                cursor: pointer;
             }
     
             
